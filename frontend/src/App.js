@@ -1,17 +1,16 @@
 
 import './App.css';
+import textbg1 from './images/textbg1.jpg';
 
 function App() {
-
-
 
   return (
 
     <div>
       <h1>HELLO SOLAR SYSTEM </h1>
-      <p>This is my first REACT APP</p>\
+      <p>This is my first REACT APP</p>
 
-      <img src="/images/textbg1.jpg" className="position1" alt="background" />
+      <img src={textbg1} className="position1" alt="background" />
       <button className="shapesbutton">SHAPES </button>
 
     </div>
